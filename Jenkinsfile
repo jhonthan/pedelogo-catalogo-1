@@ -5,7 +5,7 @@ pipeline {
 
         stage('Get Source') {
             steps {
-                git url: 'https://github.com/jhonthan/pedelogo-catalogo.git-1', branch: 'main'
+                git url: 'https://github.com/jhonthan/pedelogo-catalogo-1.git', branch: 'main'
             }
         }
 
